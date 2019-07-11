@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<style>
+	p:first-child {
+		font-size: 5px
+	}
+	a {
+		color :darkorange
+		text-decoration :none;
+	}
+	a:visited {
+		color: blue;
+	}
+	a:hover {
+		color :gray;
+		border-bottom:1px solid currentColor;
+	}	
+	</style>
+</head>
+<body>
+	<h2>hover the links to see the change in color.</h2>
+	<p>Here's a link to the
+	<a href ="http:/www.sunsofttechies.com/#/home/Homepage">Sunsoft Technologies homepage</a>.</p>
+	<img src="">
+	<hr>
+	<p>More info:<a href = "http:/www.sunsofttechies.com/#/home/ContactUs">Sunsoft Technologies </a>.</p>
+</body>
+</html>
