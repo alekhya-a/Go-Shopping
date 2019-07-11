@@ -1,0 +1,19 @@
+function myFunction() 
+{
+	var elem = doc.getElementById("content") 
+	var pos =0
+	var id =setInterval(frame,5) 
+	function frame() 
+	{
+		if(pos==350) 
+		{
+			clear Interval(id) 
+		}
+		else
+		{
+			pos++
+			elem.style.top=pos + 'px'
+			elem.style.left=pos + 'px'
+		}
+	}
+}

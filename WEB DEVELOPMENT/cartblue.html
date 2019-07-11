@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Shopping Cart</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("body").remove();
+    });
+});
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Shopping Cart  <i class="fa fa-shopping-cart"></i> </h2>
+
+
+    <div class="container">
+      <form action="/action_page.php">
+	
+      
+        <div class="row">
+          <div class="col-25">
+            <h3>Product Details</h3>
+
+            <label><i class="fa fa-female"></i> Product Name</label>
+	<input type="text" value= "Blue Maxi Frock"  readonly>
+							
+            <label><i class="fa fa-inr"></i> Price</label>
+            <input type="text" value= "1600/-"  readonly>
+
+	<button>Remove from  Cart</button>
+        </form> 
+    </div>
+  </div>
+
+	<a href="E:\WEB DEVELOPMENT\mainfrocks.html" class="btn">Continue Shopping</a>&emsp;
+	<a href="E:\WEB DEVELOPMENT\majorlist.html" class="btn">Checkout</a>
+
+ </div>
+     
+</body>
+</html>
